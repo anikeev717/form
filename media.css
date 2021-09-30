@@ -130,7 +130,6 @@
   }
   .form__login-button {
     width: 50%;
-    height: 25px;
   }
   .social__link {
     width: calc(var(--length-unit) * 4);
