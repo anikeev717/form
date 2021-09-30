@@ -117,6 +117,9 @@
 .text__wrapper-social {
   padding: calc(var(--length-unit) * 2) 0 var(--length-unit);
 }
+.form__text-wrapper {
+  text-align: center;
+}
 .form__text {
   line-height: 1.5;
   color: #666666;
