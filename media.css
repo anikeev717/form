@@ -1,6 +1,6 @@
 @media screen and (min-width: 576px) {
   :root {
-    --length-unit: 15px;
+    --length-unit: 10px;
   }
   .text-sm {
     font-size: 10px;
@@ -10,6 +10,9 @@
   }
   .text-lg {
     font-size: 20px;
+  }
+  .form__wrapper {
+    width: calc(var(--length-unit) * 24);
   }
 }
 @media screen and (min-width: 768px) {
@@ -25,6 +28,21 @@
   .text-lg {
     font-size: 24px;
   }
+  .form__wrapper {
+    width: calc(var(--length-unit) * 22);
+  }
+  .social__link {
+    background-color: #666666;
+    width: calc(var(--length-unit) * 2);
+    height: calc(var(--length-unit) * 2);
+  }
+  .social__img {
+    width: var(--length-unit);
+    height: var(--length-unit);
+  }
+  .text__wrapper-sign {
+    padding: calc(var(--length-unit) * 2) 0 var(--length-unit);
+  }
 }
 @media screen and (min-width: 992px) {
   :root {
@@ -38,6 +56,9 @@
   }
   .text-lg {
     font-size: 32px;
+  }
+  .form__wrapper {
+    width: calc(var(--length-unit) * 20);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -54,6 +75,9 @@
 @media screen and (min-width: 1920px) {
   :root {
     --length-unit: 25px;
+  }
+  .form__wrapper {
+    width: calc(var(--length-unit) * 19);
   }
 }
 
@@ -78,5 +102,57 @@
   .form__login-button:hover {
     transform: scale(1.1);
     transition: 0.5s;
+  }
+}
+@media screen and (orientation: landscape) and (max-width: 812px) {
+  :root {
+    --length-unit: 10px;
+  }
+  .form {
+    width: 90%;
+  }
+  .form__wrapper {
+    width: calc(var(--length-unit) * 50);
+  }
+  .form__title,
+  .form__forgot {
+    padding: 0;
+  }
+  .input__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .input__wrapper {
+    flex-basis: 50%;
+    margin: 10px;
+  }
+  .form__login-button {
+    width: 50%;
+    height: 25px;
+  }
+  .social__link {
+    width: calc(var(--length-unit) * 2);
+    height: calc(var(--length-unit) * 2);
+  }
+  .social__img {
+    width: var(--length-unit);
+    height: var(--length-unit);
+  }
+  .link__facebook {
+    background-color: #425892;
+  }
+  .link__twitter {
+    background-color: #49a1ee;
+  }
+  .link__google {
+    background-color: #da4d3d;
+  }
+  .text__wrapper-social {
+    padding-top: var(--length-unit);
+  }
+  .text__wrapper-sign {
+    display: none;
   }
 }
