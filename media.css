@@ -133,12 +133,12 @@
     height: 25px;
   }
   .social__link {
-    width: calc(var(--length-unit) * 2);
-    height: calc(var(--length-unit) * 2);
+    width: calc(var(--length-unit) * 4);
+    height: calc(var(--length-unit) * 4);
   }
   .social__img {
-    width: var(--length-unit);
-    height: var(--length-unit);
+    width: calc(var(--length-unit) * 2);
+    height: calc(var(--length-unit) * 2);
   }
   .link__facebook {
     background-color: #425892;
