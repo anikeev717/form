@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  width: calc(var(--length-unit) * 20);
+  width: calc(var(--length-unit) * 25);
   border-radius: 10px;
 }
 .form {
@@ -28,6 +28,7 @@
   display: block;
   padding-bottom: calc(var(--length-unit) * 2);
 }
+.input__block,
 .input__wrapper {
   width: 100%;
 }
@@ -135,17 +136,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(var(--length-unit) * 2);
-  height: calc(var(--length-unit) * 2);
+  width: calc(var(--length-unit) * 4);
+  height: calc(var(--length-unit) * 4);
   border-radius: 50%;
   margin: 5px;
   background-color: #666666;
   transition: 0.5s;
 }
+.link__facebook {
+  background-color: #425892;
+}
+.link__twitter {
+  background-color: #49a1ee;
+}
+.link__google {
+  background-color: #da4d3d;
+}
 .social__img {
   display: block;
-  width: var(--length-unit);
-  height: var(--length-unit);
+  width: calc(var(--length-unit) * 2);
+  height: calc(var(--length-unit) * 2);
   object-fit: cover;
   object-position: center;
   filter: invert(1);
