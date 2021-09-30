@@ -1,0 +1,85 @@
+@media screen and (min-width: 576px) {
+  :root {
+    --length-unit: 10px;
+  }
+  .text-sm {
+    font-size: 10px;
+  }
+  .text-md {
+    font-size: 11px;
+  }
+  .text-lg {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --length-unit: 12.5px;
+  }
+  .text-sm {
+    font-size: 11px;
+  }
+  .text-md {
+    font-size: 12px;
+  }
+  .text-lg {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 992px) {
+  :root {
+    --length-unit: 15px;
+  }
+  .text-sm {
+    font-size: 12px;
+  }
+  .text-md {
+    font-size: 14px;
+  }
+  .text-lg {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  :root {
+    --length-unit: 20px;
+  }
+  .text-sm {
+    font-size: 14px;
+  }
+  .text-md {
+    font-size: 16px;
+  }
+  .text-lg {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  :root {
+    --length-unit: 25px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .form__forgot-link:hover,
+  .form__sign-link:hover {
+    color: #fc00ff;
+    transition: 0.5s;
+  }
+  .link__facebook:hover {
+    background-color: #425892;
+    transition: 0.5s;
+  }
+  .link__twitter:hover {
+    background-color: #49a1ee;
+    transition: 0.5s;
+  }
+  .link__google:hover {
+    background-color: #da4d3d;
+    transition: 0.5s;
+  }
+  .form__login-button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+}

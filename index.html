@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./variable.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <link rel="icon" type="image/svg" href="./img/icon/user.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form__wrapper">
+        <form class="form">
+          <h1 class="form__title text-lg">Login</h1>
+          <div class="input__wrapper">
+            <p class="input__label text-sm">Username</p>
+            <input
+              class="input text-md user"
+              type="text"
+              name="username"
+              placeholder="Type your username"
+              required
+              autocomplete="off"
+              id="username-id"
+            />
+          </div>
+          <div class="input__wrapper input__wrapper-password">
+            <p class="input__label text-sm">Password</p>
+            <input
+              class="input text-md password"
+              type="password"
+              name="password"
+              placeholder="Type your password"
+              required
+            />
+          </div>
+          <div class="form__forgot">
+            <a class="form__forgot-link text-sm" href="#">Forgot password?</a>
+          </div>
+          <div class="form__login">
+            <button class="form__login-button text-md" type="submit">
+              Login
+            </button>
+          </div>
+          <div class="form__text-wrapper text__wrapper-social">
+            <p class="form__text text-sm">Or Sign Up Using</p>
+          </div>
+          <div class="form__social-wrapper">
+            <a class="social__link link__facebook" href="#"
+              ><img
+                class="social__img"
+                src="./img/icon/facebook.svg"
+                alt="facebook_icon"
+            /></a>
+            <a class="social__link link__twitter" href="#"
+              ><img
+                class="social__img"
+                src="./img/icon/twitter.svg"
+                alt="twitter_icon"
+            /></a>
+            <a class="social__link link__google" href="#"
+              ><img
+                class="social__img"
+                src="./img/icon/google.svg"
+                alt="google_icon"
+            /></a>
+          </div>
+          <div class="form__text-wrapper text__wrapper-sign">
+            <p class="form__text text-sm">Or Sign Up Using</p>
+          </div>
+          <div class="form__text-wrapper">
+            <a class="form__sign-link text-sm" href="#username-id">Sign Up</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
